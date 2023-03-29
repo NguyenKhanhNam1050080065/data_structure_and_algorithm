@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-unsigned long sum_even(const int* arr, const unsigned int& count_down){
+long sum_even(const int* arr, const unsigned int& count_down){
 	if (!count_down) return 0;
 	const int curr = *arr;
 	return (curr % 2 == 0 ? curr : 0) + sum_even(&arr[1], count_down - 1);
