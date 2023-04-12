@@ -44,6 +44,7 @@
 		"xtr1common": "cpp",
 		"xutility": "cpp",
 		"vector": "cpp",
-		"csignal": "cpp"
+		"csignal": "cpp",
+		"algorithm": "cpp"
 	}
 }
